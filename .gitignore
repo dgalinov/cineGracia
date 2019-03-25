@@ -1,0 +1,46 @@
+Last login: Mon Mar 25 16:42:14 on ttys000
+iMac-de-apple-2:~ alumne$ ls
+Applications		Downloads		Pictures
+Creative Cloud Files	Library			Public
+Desktop			Movies
+Documents		Music
+iMac-de-apple-2:~ alumne$ cd Desktop/
+iMac-de-apple-2:Desktop alumne$ git clone https://github.com/dgalinov/cineGracia.git
+Cloning into 'cineGracia'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+iMac-de-apple-2:Desktop alumne$ cd cineGracia/
+iMac-de-apple-2:cineGracia alumne$ git init
+Reinitialized existing Git repository in /Users/alumne/Desktop/cineGracia/.git/
+iMac-de-apple-2:cineGracia alumne$ ls
+README.md
+iMac-de-apple-2:cineGracia alumne$ touch .gitignore
+iMac-de-apple-2:cineGracia alumne$ ls
+README.md
+iMac-de-apple-2:cineGracia alumne$ cat .gitignore
+iMac-de-apple-2:cineGracia alumne$ vim .gitignore
+
+
+### Xcode ###
+# Xcode
+# gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
+
+## User settings
+
+## compatibility with Xcode 8 and earlier (ignoring not required starting Xcode 9)
+
+## compatibility with Xcode 3 and earlier (ignoring not required starting Xcode 4)
+
+### Xcode Patch ###
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj   
+!*.xcodeproj/xcshareddata/
+!*.xcworkspace/contents.xcworkspacedata
+/*.gcno
+**/xcshareddata/WorkspaceSettings.xcsettings
+
+# End of https://www.gitignore.io/api/git,macos,swift,xcode
+
