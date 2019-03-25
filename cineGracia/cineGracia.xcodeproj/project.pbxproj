@@ -12,6 +12,8 @@
 		EFA508D722492FAE0027FAAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFA508D522492FAE0027FAAB /* Main.storyboard */; };
 		EFA508D922492FAF0027FAAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFA508D822492FAF0027FAAB /* Assets.xcassets */; };
 		EFA508DC22492FAF0027FAAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFA508DA22492FAF0027FAAB /* LaunchScreen.storyboard */; };
+		EFA508E92249344C0027FAAB /* SplashScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA508E82249344C0027FAAB /* SplashScreenViewController.swift */; };
+		EFA508EE224938920027FAAB /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = EFA508ED224938920027FAAB /* logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		EFA508D822492FAF0027FAAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EFA508DB22492FAF0027FAAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EFA508DD22492FAF0027FAAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFA508E82249344C0027FAAB /* SplashScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SplashScreenViewController.swift; path = Controller/SplashScreenViewController.swift; sourceTree = "<group>"; };
+		EFA508ED224938920027FAAB /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +58,48 @@
 		EFA508D022492FAE0027FAAB /* cineGracia */ = {
 			isa = PBXGroup;
 			children = (
+				EFA508EA2249370B0027FAAB /* Image */,
+				EFA508E5224933BB0027FAAB /* Model */,
+				EFA508E6224933D90027FAAB /* View */,
+				EFA508E7224933DE0027FAAB /* Controller */,
 				EFA508D122492FAE0027FAAB /* AppDelegate.swift */,
 				EFA508D322492FAE0027FAAB /* ViewController.swift */,
 				EFA508D522492FAE0027FAAB /* Main.storyboard */,
 				EFA508D822492FAF0027FAAB /* Assets.xcassets */,
 				EFA508DA22492FAF0027FAAB /* LaunchScreen.storyboard */,
 				EFA508DD22492FAF0027FAAB /* Info.plist */,
+				EFA508E82249344C0027FAAB /* SplashScreenViewController.swift */,
 			);
 			path = cineGracia;
+			sourceTree = "<group>";
+		};
+		EFA508E5224933BB0027FAAB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EFA508E6224933D90027FAAB /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EFA508E7224933DE0027FAAB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EFA508EA2249370B0027FAAB /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				EFA508ED224938920027FAAB /* logo.png */,
+			);
+			path = Image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,6 +160,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFA508EE224938920027FAAB /* logo.png in Resources */,
 				EFA508DC22492FAF0027FAAB /* LaunchScreen.storyboard in Resources */,
 				EFA508D922492FAF0027FAAB /* Assets.xcassets in Resources */,
 				EFA508D722492FAE0027FAAB /* Main.storyboard in Resources */,
@@ -137,6 +176,7 @@
 			files = (
 				EFA508D422492FAE0027FAAB /* ViewController.swift in Sources */,
 				EFA508D222492FAE0027FAAB /* AppDelegate.swift in Sources */,
+				EFA508E92249344C0027FAAB /* SplashScreenViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
