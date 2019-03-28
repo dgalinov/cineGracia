@@ -13,6 +13,10 @@ class FilmViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDa
     var filmSelected:Film?
     
     @IBOutlet weak var Picker: UIPickerView!
+    @IBOutlet weak var Duration: UILabel!
+    @IBOutlet weak var Director: UILabel!
+    @IBOutlet weak var Synopsis: UILabel!
+    @IBOutlet weak var Image: UIImageView!
     
     var pickerData: [[String]] = [[String]]()
     
@@ -28,6 +32,10 @@ class FilmViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDa
         
         if let film = filmSelected{
             self.navigationItem.title = film.title
+            self.Duration.text = film.duration
+            self.Director.text = film.director
+            self.Synopsis.text = film.synopsis
+            self.Image.image = UIImage(named: film.image)
         }
     }
     

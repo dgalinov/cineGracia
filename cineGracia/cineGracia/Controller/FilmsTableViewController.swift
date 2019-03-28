@@ -10,7 +10,7 @@ import UIKit
 
 class FilmsTableViewController: UITableViewController {
 
-    let films = [Film(title: "One", duration: "120 minuts"), Film(title: "Two", duration: "200 minuts")]
+    let films = [Film(title: "One", duration: "120 minuts", director: "Dragomir", synopsis: "El puto amo", image: "logo.png"), Film(title: "Two", duration: "200 minuts", director: "Xavi", synopsis: "El puto amo sin el amo", image: "logo.png")]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -40,7 +40,7 @@ class FilmsTableViewController: UITableViewController {
 
         // Configure the cell...
         cell.textLabel?.text = films[indexPath.row].title
-
+        cell.detailTextLabel?.text = films[indexPath.row].duration
         return cell
     }
     

@@ -159,7 +159,11 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="Director" destination="595-fa-8Ta" id="z3E-ly-od7"/>
+                        <outlet property="Duration" destination="gjZ-KF-oMQ" id="Yzt-t0-CO0"/>
+                        <outlet property="Image" destination="KCr-4f-OfU" id="fMW-aF-cyf"/>
                         <outlet property="Picker" destination="DvD-AP-yOK" id="iOq-3p-1TP"/>
+                        <outlet property="Synopsis" destination="75H-C2-Tma" id="22P-PH-SgA"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="P1h-qD-QL2" userLabel="First Responder" sceneMemberID="firstResponder"/>
