@@ -54,4 +54,8 @@ class FilmViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDa
     func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
         return pickerData[component][row]
     }
+    
+    @IBAction func goBack(segue: UIStoryboardSegue){
+        
+    }
 }

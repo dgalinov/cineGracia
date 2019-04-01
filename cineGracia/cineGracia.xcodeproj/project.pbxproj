@@ -16,6 +16,7 @@
 		EFA508D922492FAF0027FAAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFA508D822492FAF0027FAAB /* Assets.xcassets */; };
 		EFA508DC22492FAF0027FAAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFA508DA22492FAF0027FAAB /* LaunchScreen.storyboard */; };
 		EFA508EE224938920027FAAB /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = EFA508ED224938920027FAAB /* logo.png */; };
+		EFE09173225250FD003A4BB4 /* SeatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE09172225250FD003A4BB4 /* SeatsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,9 @@
 		EFA508DB22492FAF0027FAAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EFA508DD22492FAF0027FAAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EFA508ED224938920027FAAB /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		EFE09172225250FD003A4BB4 /* SeatsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeatsViewController.swift; sourceTree = "<group>"; };
+		EFE0917822525840003A4BB4 /* butacaRoja.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = butacaRoja.png; sourceTree = "<group>"; };
+		EFE0917922525840003A4BB4 /* butacaNegra.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = butacaNegra.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,7 @@
 				EFA508D322492FAE0027FAAB /* ViewController.swift */,
 				EF33D212224D21E500286F45 /* FilmsTableViewController.swift */,
 				EF33D210224D0E8100286F45 /* FilmViewController.swift */,
+				EFE09172225250FD003A4BB4 /* SeatsViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -103,6 +108,8 @@
 		EFA508EA2249370B0027FAAB /* Image */ = {
 			isa = PBXGroup;
 			children = (
+				EFE0917922525840003A4BB4 /* butacaNegra.png */,
+				EFE0917822525840003A4BB4 /* butacaRoja.png */,
 				EFA508ED224938920027FAAB /* logo.png */,
 			);
 			path = Image;
@@ -181,6 +188,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFA508D422492FAE0027FAAB /* ViewController.swift in Sources */,
+				EFE09173225250FD003A4BB4 /* SeatsViewController.swift in Sources */,
 				EF33D215224D22DD00286F45 /* Film.swift in Sources */,
 				EFA508D222492FAE0027FAAB /* AppDelegate.swift in Sources */,
 				EF33D211224D0E8100286F45 /* FilmViewController.swift in Sources */,
