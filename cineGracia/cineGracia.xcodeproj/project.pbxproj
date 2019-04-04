@@ -16,6 +16,12 @@
 		EFA508D922492FAF0027FAAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFA508D822492FAF0027FAAB /* Assets.xcassets */; };
 		EFA508DC22492FAF0027FAAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFA508DA22492FAF0027FAAB /* LaunchScreen.storyboard */; };
 		EFA508EE224938920027FAAB /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = EFA508ED224938920027FAAB /* logo.png */; };
+		EFAB117F22565ED400C3956C /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = EFAB117422565ED200C3956C /* FMDatabaseAdditions.m */; };
+		EFAB118022565ED400C3956C /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = EFAB117822565ED200C3956C /* FMResultSet.m */; };
+		EFAB118122565ED400C3956C /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = EFAB117A22565ED300C3956C /* FMDatabasePool.m */; };
+		EFAB118222565ED400C3956C /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = EFAB117C22565ED300C3956C /* FMDatabase.m */; };
+		EFAB118322565ED400C3956C /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = EFAB117D22565ED400C3956C /* FMDatabaseQueue.m */; };
+		EFC2506422564E42002D9C84 /* TicketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC2506322564E42002D9C84 /* TicketViewController.swift */; };
 		EFE09173225250FD003A4BB4 /* SeatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE09172225250FD003A4BB4 /* SeatsViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +37,20 @@
 		EFA508DB22492FAF0027FAAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EFA508DD22492FAF0027FAAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EFA508ED224938920027FAAB /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		EFAB117222565C2200C3956C /* codigo-de-barras.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "codigo-de-barras.png"; sourceTree = "<group>"; };
+		EFAB117322565ED000C3956C /* cineGracia-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "cineGracia-Bridging-Header.h"; sourceTree = "<group>"; };
+		EFAB117422565ED200C3956C /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		EFAB117522565ED200C3956C /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		EFAB117622565ED200C3956C /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		EFAB117722565ED200C3956C /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		EFAB117822565ED200C3956C /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		EFAB117922565ED300C3956C /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		EFAB117A22565ED300C3956C /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		EFAB117B22565ED300C3956C /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		EFAB117C22565ED300C3956C /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		EFAB117D22565ED400C3956C /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		EFAB117E22565ED400C3956C /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		EFC2506322564E42002D9C84 /* TicketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketViewController.swift; sourceTree = "<group>"; };
 		EFE09172225250FD003A4BB4 /* SeatsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeatsViewController.swift; sourceTree = "<group>"; };
 		EFE0917822525840003A4BB4 /* butacaRoja.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = butacaRoja.png; sourceTree = "<group>"; };
 		EFE0917922525840003A4BB4 /* butacaNegra.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = butacaNegra.png; sourceTree = "<group>"; };
@@ -66,6 +86,7 @@
 		EFA508D022492FAE0027FAAB /* cineGracia */ = {
 			isa = PBXGroup;
 			children = (
+				EFAB118422565EE700C3956C /* fmdb */,
 				EFA508EA2249370B0027FAAB /* Image */,
 				EFA508E5224933BB0027FAAB /* Model */,
 				EFA508E6224933D90027FAAB /* View */,
@@ -74,6 +95,7 @@
 				EFA508D822492FAF0027FAAB /* Assets.xcassets */,
 				EFA508DA22492FAF0027FAAB /* LaunchScreen.storyboard */,
 				EFA508DD22492FAF0027FAAB /* Info.plist */,
+				EFAB117322565ED000C3956C /* cineGracia-Bridging-Header.h */,
 			);
 			path = cineGracia;
 			sourceTree = "<group>";
@@ -101,6 +123,7 @@
 				EF33D212224D21E500286F45 /* FilmsTableViewController.swift */,
 				EF33D210224D0E8100286F45 /* FilmViewController.swift */,
 				EFE09172225250FD003A4BB4 /* SeatsViewController.swift */,
+				EFC2506322564E42002D9C84 /* TicketViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -108,11 +131,31 @@
 		EFA508EA2249370B0027FAAB /* Image */ = {
 			isa = PBXGroup;
 			children = (
+				EFAB117222565C2200C3956C /* codigo-de-barras.png */,
 				EFE0917922525840003A4BB4 /* butacaNegra.png */,
 				EFE0917822525840003A4BB4 /* butacaRoja.png */,
 				EFA508ED224938920027FAAB /* logo.png */,
 			);
 			path = Image;
+			sourceTree = "<group>";
+		};
+		EFAB118422565EE700C3956C /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				EFAB117B22565ED300C3956C /* FMDatabase.h */,
+				EFAB117C22565ED300C3956C /* FMDatabase.m */,
+				EFAB117922565ED300C3956C /* FMDatabaseAdditions.h */,
+				EFAB117422565ED200C3956C /* FMDatabaseAdditions.m */,
+				EFAB117622565ED200C3956C /* FMDatabasePool.h */,
+				EFAB117A22565ED300C3956C /* FMDatabasePool.m */,
+				EFAB117722565ED200C3956C /* FMDatabaseQueue.h */,
+				EFAB117D22565ED400C3956C /* FMDatabaseQueue.m */,
+				EFAB117522565ED200C3956C /* FMDB.h */,
+				EFAB117E22565ED400C3956C /* FMResultSet.h */,
+				EFAB117822565ED200C3956C /* FMResultSet.m */,
+			);
+			name = fmdb;
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,6 +190,7 @@
 				TargetAttributes = {
 					EFA508CD22492FAE0027FAAB = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -191,8 +235,14 @@
 				EFE09173225250FD003A4BB4 /* SeatsViewController.swift in Sources */,
 				EF33D215224D22DD00286F45 /* Film.swift in Sources */,
 				EFA508D222492FAE0027FAAB /* AppDelegate.swift in Sources */,
+				EFC2506422564E42002D9C84 /* TicketViewController.swift in Sources */,
+				EFAB118322565ED400C3956C /* FMDatabaseQueue.m in Sources */,
 				EF33D211224D0E8100286F45 /* FilmViewController.swift in Sources */,
+				EFAB118022565ED400C3956C /* FMResultSet.m in Sources */,
+				EFAB118122565ED400C3956C /* FMDatabasePool.m in Sources */,
 				EF33D213224D21E500286F45 /* FilmsTableViewController.swift in Sources */,
+				EFAB118222565ED400C3956C /* FMDatabase.m in Sources */,
+				EFAB117F22565ED400C3956C /* FMDatabaseAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,6 +388,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = cineGracia/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -346,6 +397,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = drago.xavi.salle.cineGracia;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "cineGracia/cineGracia-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -355,6 +408,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = cineGracia/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -363,6 +417,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = drago.xavi.salle.cineGracia;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "cineGracia/cineGracia-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
