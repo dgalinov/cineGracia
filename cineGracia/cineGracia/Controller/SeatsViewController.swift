@@ -14,6 +14,8 @@ class SeatsViewController: UIViewController {
     @IBOutlet weak var butaca2: UIButton!
     @IBOutlet weak var butaca1: UIButton!
     
+    var filmSelected:Film?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -61,6 +63,16 @@ class SeatsViewController: UIViewController {
             }
         default:
             print("hola")
+        }
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "SaveSeatsView" {
+            if let navigationController = segue.destination as? UINavigationController {
+                if let ticketViewController = navigationController.visibleViewController as? TicketViewController {
+                    ticketViewController.filmSelected = self.filmSelected
+                }
+            }
         }
     }
     

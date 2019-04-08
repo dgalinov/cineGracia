@@ -55,6 +55,16 @@ class FilmViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDa
         return pickerData[component][row]
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "SaveFilmView" {
+            if let navigationController = segue.destination as? UINavigationController {
+                if let seatsViewController = navigationController.visibleViewController as? SeatsViewController {
+                    seatsViewController.filmSelected = self.filmSelected
+                }
+            }
+        }
+    }
+    
     @IBAction func goBack(segue: UIStoryboardSegue){
         
     }

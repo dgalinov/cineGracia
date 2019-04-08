@@ -9,11 +9,24 @@
 import UIKit
 
 class TicketViewController: UIViewController {
-
+    @IBOutlet weak var Titulo: UILabel!
+    @IBOutlet weak var Dia: UILabel!
+    @IBOutlet weak var Hora: UILabel!
+    @IBOutlet weak var Butaca: UILabel!
+    
+    var filmSelected:Film?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        if let film = filmSelected{
+            self.Titulo.text = film.title
+            //self.Dia.text =
+            //self.Hora.text =
+            //self.Butaca =
+        }
 
-        // Do any additional setup after loading the view.
+        
     }
     
 
