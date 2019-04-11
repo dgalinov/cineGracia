@@ -483,6 +483,7 @@
         <image name="logo.png" width="894" height="894"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="5uI-Ud-UEi"/>
         <segue reference="g6l-wV-bf6"/>
     </inferredMetricsTieBreakers>
 </document>

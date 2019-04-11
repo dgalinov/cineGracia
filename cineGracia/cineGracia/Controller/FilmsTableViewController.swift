@@ -12,8 +12,15 @@ class FilmsTableViewController: UITableViewController {
 
     let films = [Film(title: "One", duration: "120 minuts", director: "Dragomir", synopsis: "El puto amo", image: "logo.png"), Film(title: "Two", duration: "200 minuts", director: "Xavi", synopsis: "El puto amo sin el amo", image: "logo.png")]
     
+    
+    let dataBaseResourceFileName:String = "cineGracia.db"
+    var databasePath:String=String()
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        setUpExternalDataBAse()
 
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
@@ -96,6 +103,26 @@ class FilmsTableViewController: UITableViewController {
     
     @IBAction func goBack(segue: UIStoryboardSegue) {
         
+    }
+    
+    func setUpExternalDataBAse(){
+        let filemanager=FileManager()
+        
+        if let docsDir=fileManager.urls(for: .documentDirectory, in: .userDomainMask).first{
+            let databaseURL = docsDir.appendingPathComponent(dataBaseResourceFileName)
+            databasePath = databaseURL.absoluteString
+            
+            if  !fileManager.fileExists(atPath: databasePath){
+                if let sourceDateBaseURL = Bundle.main.url(forSource: "cineGracia", withExtension: "db"){
+                    do{
+                        try fileManager.copyItem(at: sourceDataBaseURL, to: databaseURL)
+                        print("database copiada")
+                    }catch{
+                        pirnt("Error copiando la bbdd")
+                    }
+                }
+            }
+        }
     }
 
 }

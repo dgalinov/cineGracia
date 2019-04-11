@@ -11,7 +11,6 @@
 		EF33D213224D21E500286F45 /* FilmsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF33D212224D21E500286F45 /* FilmsTableViewController.swift */; };
 		EF33D215224D22DD00286F45 /* Film.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF33D214224D22DD00286F45 /* Film.swift */; };
 		EFA508D222492FAE0027FAAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA508D122492FAE0027FAAB /* AppDelegate.swift */; };
-		EFA508D422492FAE0027FAAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA508D322492FAE0027FAAB /* ViewController.swift */; };
 		EFA508D722492FAE0027FAAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFA508D522492FAE0027FAAB /* Main.storyboard */; };
 		EFA508D922492FAF0027FAAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFA508D822492FAF0027FAAB /* Assets.xcassets */; };
 		EFA508DC22492FAF0027FAAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFA508DA22492FAF0027FAAB /* LaunchScreen.storyboard */; };
@@ -21,8 +20,13 @@
 		EFAB118122565ED400C3956C /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = EFAB117A22565ED300C3956C /* FMDatabasePool.m */; };
 		EFAB118222565ED400C3956C /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = EFAB117C22565ED300C3956C /* FMDatabase.m */; };
 		EFAB118322565ED400C3956C /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = EFAB117D22565ED400C3956C /* FMDatabaseQueue.m */; };
+		EFAB1381225D0C3E00316CA5 /* SQLiteDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAB1380225D0C3E00316CA5 /* SQLiteDAO.swift */; };
+		EFAB1383225D0D8900316CA5 /* FilmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAB1382225D0D8900316CA5 /* FilmManager.swift */; };
+		EFAB1385225D11F900316CA5 /* SQLiteFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAB1384225D11F900316CA5 /* SQLiteFactory.swift */; };
+		EFAB1387225D132900316CA5 /* SQLiteSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAB1386225D132900316CA5 /* SQLiteSingleton.swift */; };
 		EFC2506422564E42002D9C84 /* TicketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC2506322564E42002D9C84 /* TicketViewController.swift */; };
 		EFE09173225250FD003A4BB4 /* SeatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE09172225250FD003A4BB4 /* SeatsViewController.swift */; };
+		EFE87943225F8C4E005662D5 /* cineGracia in Resources */ = {isa = PBXBuildFile; fileRef = EFE87942225F8C4E005662D5 /* cineGracia */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,7 +35,6 @@
 		EF33D214224D22DD00286F45 /* Film.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Film.swift; sourceTree = "<group>"; };
 		EFA508CE22492FAE0027FAAB /* cineGracia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cineGracia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFA508D122492FAE0027FAAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EFA508D322492FAE0027FAAB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EFA508D622492FAE0027FAAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EFA508D822492FAF0027FAAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EFA508DB22492FAF0027FAAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -50,10 +53,15 @@
 		EFAB117C22565ED300C3956C /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
 		EFAB117D22565ED400C3956C /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
 		EFAB117E22565ED400C3956C /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		EFAB1380225D0C3E00316CA5 /* SQLiteDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLiteDAO.swift; sourceTree = "<group>"; };
+		EFAB1382225D0D8900316CA5 /* FilmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmManager.swift; sourceTree = "<group>"; };
+		EFAB1384225D11F900316CA5 /* SQLiteFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLiteFactory.swift; sourceTree = "<group>"; };
+		EFAB1386225D132900316CA5 /* SQLiteSingleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLiteSingleton.swift; sourceTree = "<group>"; };
 		EFC2506322564E42002D9C84 /* TicketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketViewController.swift; sourceTree = "<group>"; };
 		EFE09172225250FD003A4BB4 /* SeatsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeatsViewController.swift; sourceTree = "<group>"; };
 		EFE0917822525840003A4BB4 /* butacaRoja.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = butacaRoja.png; sourceTree = "<group>"; };
 		EFE0917922525840003A4BB4 /* butacaNegra.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = butacaNegra.png; sourceTree = "<group>"; };
+		EFE87942225F8C4E005662D5 /* cineGracia */ = {isa = PBXFileReference; lastKnownFileType = file; path = cineGracia; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +104,7 @@
 				EFA508DA22492FAF0027FAAB /* LaunchScreen.storyboard */,
 				EFA508DD22492FAF0027FAAB /* Info.plist */,
 				EFAB117322565ED000C3956C /* cineGracia-Bridging-Header.h */,
+				EFE87942225F8C4E005662D5 /* cineGracia */,
 			);
 			path = cineGracia;
 			sourceTree = "<group>";
@@ -103,7 +112,11 @@
 		EFA508E5224933BB0027FAAB /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				EFAB1380225D0C3E00316CA5 /* SQLiteDAO.swift */,
+				EFAB1384225D11F900316CA5 /* SQLiteFactory.swift */,
+				EFAB1386225D132900316CA5 /* SQLiteSingleton.swift */,
 				EF33D214224D22DD00286F45 /* Film.swift */,
+				EFAB1382225D0D8900316CA5 /* FilmManager.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -119,7 +132,6 @@
 		EFA508E7224933DE0027FAAB /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				EFA508D322492FAE0027FAAB /* ViewController.swift */,
 				EF33D212224D21E500286F45 /* FilmsTableViewController.swift */,
 				EF33D210224D0E8100286F45 /* FilmViewController.swift */,
 				EFE09172225250FD003A4BB4 /* SeatsViewController.swift */,
@@ -220,6 +232,7 @@
 				EFA508EE224938920027FAAB /* logo.png in Resources */,
 				EFA508DC22492FAF0027FAAB /* LaunchScreen.storyboard in Resources */,
 				EFA508D922492FAF0027FAAB /* Assets.xcassets in Resources */,
+				EFE87943225F8C4E005662D5 /* cineGracia in Resources */,
 				EFA508D722492FAE0027FAAB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -231,18 +244,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFA508D422492FAE0027FAAB /* ViewController.swift in Sources */,
 				EFE09173225250FD003A4BB4 /* SeatsViewController.swift in Sources */,
 				EF33D215224D22DD00286F45 /* Film.swift in Sources */,
 				EFA508D222492FAE0027FAAB /* AppDelegate.swift in Sources */,
 				EFC2506422564E42002D9C84 /* TicketViewController.swift in Sources */,
+				EFAB1387225D132900316CA5 /* SQLiteSingleton.swift in Sources */,
 				EFAB118322565ED400C3956C /* FMDatabaseQueue.m in Sources */,
 				EF33D211224D0E8100286F45 /* FilmViewController.swift in Sources */,
+				EFAB1385225D11F900316CA5 /* SQLiteFactory.swift in Sources */,
 				EFAB118022565ED400C3956C /* FMResultSet.m in Sources */,
 				EFAB118122565ED400C3956C /* FMDatabasePool.m in Sources */,
+				EFAB1381225D0C3E00316CA5 /* SQLiteDAO.swift in Sources */,
 				EF33D213224D21E500286F45 /* FilmsTableViewController.swift in Sources */,
 				EFAB118222565ED400C3956C /* FMDatabase.m in Sources */,
 				EFAB117F22565ED400C3956C /* FMDatabaseAdditions.m in Sources */,
+				EFAB1383225D0D8900316CA5 /* FilmManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
