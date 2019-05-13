@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50C090132281FE5000F77FDB /* Ticket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C090122281FE5000F77FDB /* Ticket.swift */; };
+		50F8873122847E0F00400EEC /* cineGraciaBBDD.db in Resources */ = {isa = PBXBuildFile; fileRef = 50F8873022847E0F00400EEC /* cineGraciaBBDD.db */; };
+		EF33D211224D0E8100286F45 /* FilmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF33D210224D0E8100286F45 /* FilmViewController.swift */; };
+		EF33D213224D21E500286F45 /* FilmsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF33D212224D21E500286F45 /* FilmsTableViewController.swift */; };
+		EF33D215224D22DD00286F45 /* Film.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF33D214224D22DD00286F45 /* Film.swift */; };
+		EFA508D222492FAE0027FAAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA508D122492FAE0027FAAB /* AppDelegate.swift */; };
+		EFA508D722492FAE0027FAAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFA508D522492FAE0027FAAB /* Main.storyboard */; };
+		EFA508D922492FAF0027FAAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFA508D822492FAF0027FAAB /* Assets.xcassets */; };
+		EFA508DC22492FAF0027FAAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFA508DA22492FAF0027FAAB /* LaunchScreen.storyboard */; };
+		EFA508EE224938920027FAAB /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = EFA508ED224938920027FAAB /* logo.png */; };
+		EFAB117F22565ED400C3956C /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = EFAB117422565ED200C3956C /* FMDatabaseAdditions.m */; };
+		EFAB118022565ED400C3956C /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = EFAB117822565ED200C3956C /* FMResultSet.m */; };
+		EFAB118122565ED400C3956C /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = EFAB117A22565ED300C3956C /* FMDatabasePool.m */; };
+		EFAB118222565ED400C3956C /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = EFAB117C22565ED300C3956C /* FMDatabase.m */; };
+		EFAB118322565ED400C3956C /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = EFAB117D22565ED400C3956C /* FMDatabaseQueue.m */; };
+		EFC2506422564E42002D9C84 /* TicketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC2506322564E42002D9C84 /* TicketViewController.swift */; };
+		EFC706E0228083580088F127 /* DateFilm.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC706DF228083580088F127 /* DateFilm.swift */; };
+		EFE09173225250FD003A4BB4 /* SeatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE09172225250FD003A4BB4 /* SeatsViewController.swift */; };
+		EFE879D3225FA04B005662D5 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EFE879D2225FA04B005662D5 /* libsqlite3.tbd */; };
+		EFE879D5225FA14F005662D5 /* SQLiteDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE879D4225FA14F005662D5 /* SQLiteDAO.swift */; };
+		EFE879D7225FA1DF005662D5 /* FilmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE879D6225FA1DF005662D5 /* FilmManager.swift */; };
+		EFE879DB225FA3C4005662D5 /* SQLiteFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE879DA225FA3C4005662D5 /* SQLiteFactory.swift */; };
+		EFE879DD225FA49C005662D5 /* SQLiteSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE879DC225FA49C005662D5 /* SQLiteSingleton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		50C090122281FE5000F77FDB /* Ticket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ticket.swift; sourceTree = "<group>"; };
+		50F8873022847E0F00400EEC /* cineGraciaBBDD.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = cineGraciaBBDD.db; sourceTree = "<group>"; };
+		EF33D210224D0E8100286F45 /* FilmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmViewController.swift; sourceTree = "<group>"; };
+		EF33D212224D21E500286F45 /* FilmsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmsTableViewController.swift; sourceTree = "<group>"; };
+		EF33D214224D22DD00286F45 /* Film.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Film.swift; sourceTree = "<group>"; };
+		EFA508CE22492FAE0027FAAB /* cineGracia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cineGracia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFA508D122492FAE0027FAAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EFA508D622492FAE0027FAAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EFA508D822492FAF0027FAAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFA508DB22492FAF0027FAAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EFA508DD22492FAF0027FAAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFA508ED224938920027FAAB /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		EFAB117222565C2200C3956C /* codigo-de-barras.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "codigo-de-barras.png"; sourceTree = "<group>"; };
+		EFAB117322565ED000C3956C /* cineGracia-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "cineGracia-Bridging-Header.h"; sourceTree = "<group>"; };
+		EFAB117422565ED200C3956C /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		EFAB117522565ED200C3956C /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		EFAB117622565ED200C3956C /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		EFAB117722565ED200C3956C /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		EFAB117822565ED200C3956C /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		EFAB117922565ED300C3956C /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		EFAB117A22565ED300C3956C /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		EFAB117B22565ED300C3956C /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		EFAB117C22565ED300C3956C /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		EFAB117D22565ED400C3956C /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		EFAB117E22565ED400C3956C /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		EFC2506322564E42002D9C84 /* TicketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketViewController.swift; sourceTree = "<group>"; };
+		EFC706DF228083580088F127 /* DateFilm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFilm.swift; sourceTree = "<group>"; };
+		EFE09172225250FD003A4BB4 /* SeatsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeatsViewController.swift; sourceTree = "<group>"; };
+		EFE0917822525840003A4BB4 /* butacaRoja.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = butacaRoja.png; sourceTree = "<group>"; };
+		EFE0917922525840003A4BB4 /* butacaNegra.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = butacaNegra.png; sourceTree = "<group>"; };
+		EFE879D2225FA04B005662D5 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		EFE879D4225FA14F005662D5 /* SQLiteDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLiteDAO.swift; sourceTree = "<group>"; };
+		EFE879D6225FA1DF005662D5 /* FilmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmManager.swift; sourceTree = "<group>"; };
+		EFE879DA225FA3C4005662D5 /* SQLiteFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLiteFactory.swift; sourceTree = "<group>"; };
+		EFE879DC225FA49C005662D5 /* SQLiteSingleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLiteSingleton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFA508CB22492FAE0027FAAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFE879D3225FA04B005662D5 /* libsqlite3.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EFA508C522492FAE0027FAAB = {
+			isa = PBXGroup;
+			children = (
+				EFA508D022492FAE0027FAAB /* cineGracia */,
+				EFA508CF22492FAE0027FAAB /* Products */,
+				EFE879D1225FA04B005662D5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EFA508CF22492FAE0027FAAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFA508CE22492FAE0027FAAB /* cineGracia.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFA508D022492FAE0027FAAB /* cineGracia */ = {
+			isa = PBXGroup;
+			children = (
+				50F8873022847E0F00400EEC /* cineGraciaBBDD.db */,
+				EFAB118422565EE700C3956C /* fmdb */,
+				EFA508EA2249370B0027FAAB /* Image */,
+				EFA508E5224933BB0027FAAB /* Model */,
+				EFA508E6224933D90027FAAB /* View */,
+				EFA508E7224933DE0027FAAB /* Controller */,
+				EFA508D122492FAE0027FAAB /* AppDelegate.swift */,
+				EFA508D822492FAF0027FAAB /* Assets.xcassets */,
+				EFA508DA22492FAF0027FAAB /* LaunchScreen.storyboard */,
+				EFA508DD22492FAF0027FAAB /* Info.plist */,
+				EFAB117322565ED000C3956C /* cineGracia-Bridging-Header.h */,
+			);
+			path = cineGracia;
+			sourceTree = "<group>";
+		};
+		EFA508E5224933BB0027FAAB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EF33D214224D22DD00286F45 /* Film.swift */,
+				EFE879D4225FA14F005662D5 /* SQLiteDAO.swift */,
+				EFE879D6225FA1DF005662D5 /* FilmManager.swift */,
+				EFE879DA225FA3C4005662D5 /* SQLiteFactory.swift */,
+				EFE879DC225FA49C005662D5 /* SQLiteSingleton.swift */,
+				EFC706DF228083580088F127 /* DateFilm.swift */,
+				50C090122281FE5000F77FDB /* Ticket.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EFA508E6224933D90027FAAB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EFA508D522492FAE0027FAAB /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EFA508E7224933DE0027FAAB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EF33D212224D21E500286F45 /* FilmsTableViewController.swift */,
+				EF33D210224D0E8100286F45 /* FilmViewController.swift */,
+				EFE09172225250FD003A4BB4 /* SeatsViewController.swift */,
+				EFC2506322564E42002D9C84 /* TicketViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EFA508EA2249370B0027FAAB /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				EFAB117222565C2200C3956C /* codigo-de-barras.png */,
+				EFE0917922525840003A4BB4 /* butacaNegra.png */,
+				EFE0917822525840003A4BB4 /* butacaRoja.png */,
+				EFA508ED224938920027FAAB /* logo.png */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		EFAB118422565EE700C3956C /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				EFAB117B22565ED300C3956C /* FMDatabase.h */,
+				EFAB117C22565ED300C3956C /* FMDatabase.m */,
+				EFAB117922565ED300C3956C /* FMDatabaseAdditions.h */,
+				EFAB117422565ED200C3956C /* FMDatabaseAdditions.m */,
+				EFAB117622565ED200C3956C /* FMDatabasePool.h */,
+				EFAB117A22565ED300C3956C /* FMDatabasePool.m */,
+				EFAB117722565ED200C3956C /* FMDatabaseQueue.h */,
+				EFAB117D22565ED400C3956C /* FMDatabaseQueue.m */,
+				EFAB117522565ED200C3956C /* FMDB.h */,
+				EFAB117E22565ED400C3956C /* FMResultSet.h */,
+				EFAB117822565ED200C3956C /* FMResultSet.m */,
+			);
+			name = fmdb;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		EFE879D1225FA04B005662D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EFE879D2225FA04B005662D5 /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFA508CD22492FAE0027FAAB /* cineGracia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFA508E022492FAF0027FAAB /* Build configuration list for PBXNativeTarget "cineGracia" */;
+			buildPhases = (
+				EFA508CA22492FAE0027FAAB /* Sources */,
+				EFA508CB22492FAE0027FAAB /* Frameworks */,
+				EFA508CC22492FAE0027FAAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cineGracia;
+			productName = cineGracia;
+			productReference = EFA508CE22492FAE0027FAAB /* cineGracia.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFA508C622492FAE0027FAAB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = XaviDrago;
+				TargetAttributes = {
+					EFA508CD22492FAE0027FAAB = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
+					};
+				};
+			};
+			buildConfigurationList = EFA508C922492FAE0027FAAB /* Build configuration list for PBXProject "cineGracia" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFA508C522492FAE0027FAAB;
+			productRefGroup = EFA508CF22492FAE0027FAAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFA508CD22492FAE0027FAAB /* cineGracia */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFA508CC22492FAE0027FAAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFA508EE224938920027FAAB /* logo.png in Resources */,
+				50F8873122847E0F00400EEC /* cineGraciaBBDD.db in Resources */,
+				EFA508DC22492FAF0027FAAB /* LaunchScreen.storyboard in Resources */,
+				EFA508D922492FAF0027FAAB /* Assets.xcassets in Resources */,
+				EFA508D722492FAE0027FAAB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFA508CA22492FAE0027FAAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFE09173225250FD003A4BB4 /* SeatsViewController.swift in Sources */,
+				EF33D215224D22DD00286F45 /* Film.swift in Sources */,
+				EFA508D222492FAE0027FAAB /* AppDelegate.swift in Sources */,
+				EFC2506422564E42002D9C84 /* TicketViewController.swift in Sources */,
+				EFE879D5225FA14F005662D5 /* SQLiteDAO.swift in Sources */,
+				EFE879DD225FA49C005662D5 /* SQLiteSingleton.swift in Sources */,
+				EFAB118322565ED400C3956C /* FMDatabaseQueue.m in Sources */,
+				EF33D211224D0E8100286F45 /* FilmViewController.swift in Sources */,
+				EFAB118022565ED400C3956C /* FMResultSet.m in Sources */,
+				EFE879DB225FA3C4005662D5 /* SQLiteFactory.swift in Sources */,
+				EFAB118122565ED400C3956C /* FMDatabasePool.m in Sources */,
+				50C090132281FE5000F77FDB /* Ticket.swift in Sources */,
+				EFE879D7225FA1DF005662D5 /* FilmManager.swift in Sources */,
+				EF33D213224D21E500286F45 /* FilmsTableViewController.swift in Sources */,
+				EFAB118222565ED400C3956C /* FMDatabase.m in Sources */,
+				EFAB117F22565ED400C3956C /* FMDatabaseAdditions.m in Sources */,
+				EFC706E0228083580088F127 /* DateFilm.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EFA508D522492FAE0027FAAB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFA508D622492FAE0027FAAB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EFA508DA22492FAF0027FAAB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFA508DB22492FAF0027FAAB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFA508DE22492FAF0027FAAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EFA508DF22492FAF0027FAAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFA508E122492FAF0027FAAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = cineGracia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = drago.xavi.salle.cineGracia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "cineGracia/cineGracia-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EFA508E222492FAF0027FAAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = cineGracia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = drago.xavi.salle.cineGracia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "cineGracia/cineGracia-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFA508C922492FAE0027FAAB /* Build configuration list for PBXProject "cineGracia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFA508DE22492FAF0027FAAB /* Debug */,
+				EFA508DF22492FAF0027FAAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFA508E022492FAF0027FAAB /* Build configuration list for PBXNativeTarget "cineGracia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFA508E122492FAF0027FAAB /* Debug */,
+				EFA508E222492FAF0027FAAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFA508C622492FAE0027FAAB /* Project object */;
+}
